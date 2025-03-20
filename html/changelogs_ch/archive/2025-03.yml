@@ -403,3 +403,22 @@
   Kashargul:
   - bugfix: reverts the emote sounds to the chomp ones
   - code_imp: enable grep on modular chomp
+2025-03-20:
+  Ace:
+  - rscadd: Lamias now have unique belly text!
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: an exploit to detect invisible entities
+  Diana:
+  - rscadd: Artifacts now have a coinflip's chance of spawning active when unearthed
+      (EXCLUDING gas artifacts)
+  - qol: Artifacts are always visible at any depth now.
+  - qol: Artifacts no longer apply a Z wide spawn, it will only apply effects for
+      those within a small range.
+  - bugfix: Artifacts that have a TOUCH EFFECT but not a TOUCH TRIGGER can now be
+      ACTIVATED and you can have the effect happen to you by bumping into it, having
+      it bump into you, or touching it without gloves
+  Kash, Diana:
+  - bugfix: some protean rig issues
+  - bugfix: Your DNA will no longer randomly eat itself under certain circumstances
+  - bugfix: Protean rigs no longer delete theirselves
+  - bugfix: Protean rigs no longer delete clothing blocking their deployment
