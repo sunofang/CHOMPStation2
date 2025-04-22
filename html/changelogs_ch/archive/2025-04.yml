@@ -185,3 +185,14 @@
 2025-04-20:
   sunofang:
   - maptweak: Carrier engines fixed, and access reworked
+2025-04-22:
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: Rings and Bracelets won't slow you down anymore
+  - rscadd: You can now configure the messages used by the trash eater perk on a per
+      vorebelly basis.
+  - qol: Changed blood splatters and subtypes such as oil to no longer interact with
+      someone flying, hovering or floating over them.
+  - code_imp: fix multiple runtimes
+  - bugfix: several prefs could not be cleared
+  Diana:
+  - rscadd: Mining vendor will now happily sell you a holster for your machete
